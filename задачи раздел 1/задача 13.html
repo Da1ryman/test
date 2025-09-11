@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задача 13</title>
+    <link href="Задача 13.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h2>Запись на курсы</h2>
+
+    <hr />
+
+    <form style="font-size: 20px" action="nahui" method="post">
+      <label for="message">Имя:</label>
+
+      <br />
+
+      <input type="text" id="message" placeholder="Введите имя" />
+
+      <p>Язык программирования:</p>
+
+      <input type="radio" name="lang" value="C++" />
+
+      <label>C++</label>
+
+      <br />
+
+      <input type="radio" name="lang" value="PHP" />
+
+      <label>PHP</label>
+
+      <br />
+
+      <input type="radio" name="lang" value="Python" />
+
+      <label>Python</label>
+
+      <br />
+
+      <label for="Dop inf">Дополнительная информация:</label>
+
+      <br />
+
+      <br />
+
+      <textarea
+        id="Dop inf"
+        placeholder="Расскажите что-то о себе &#128512;"
+        class="text"
+      ></textarea>
+
+      <br />
+
+      <label for="pass">Секретное слово:</label>
+
+      <br />
+
+      <input type="password" id="pass" placeholder="не хуй" />
+
+      <br />
+
+      <br />
+
+      <button class="button" type="submit" disabled>Отправить</button>
+
+      <button class="button" type="reset">Очистить</button>
+
+      <hr />
+    </form>
+  </body>
+</html>
