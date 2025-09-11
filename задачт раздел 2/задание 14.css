@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Merriweather", serif;
+  background-color: rgb(235, 233, 233);
+}
+
+.sckroll {
+  width: 400px;
+  height: 400px;
+  overflow: scroll;
+  overflow-x: hidden;
+  font-size: 25px;
+  margin: 20px 0 0 20px;
+  position: fixed;
+  white-space: pre-line;
+  direction: rtl;
+  text-align: left;
+  scrollbar-color: rgb(185, 8, 8) rgb(235, 233, 233);
+  padding-left: 20px;
+  line-height: 1px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+p:hover {
+  background-color: rgb(199, 22, 22);
+  color: white;
+  width: auto;
+  height: 10%;
+  font-size: 110%;
+  border-radius: 10px;
+  padding-left: 20px;
+  line-height: normal;
+  transition: all 0.5s;
+}
+
+.line {
+  border-top: 2px dashed rgb(199, 22, 22);
+  width: 300px;
+  position: absolute;
+  margin-left: 10px;
+}
